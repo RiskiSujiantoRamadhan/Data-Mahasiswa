@@ -1,5 +1,4 @@
-# UAP_Web-Data-Siswa
-# FinalProject_PBO_Kelompok8
+# UAP Web - Studi Kasus Data Siswa
 Anggota Kelompok:
 * Riski Sujianto Ramadhan     (2017051084)
 * Putu Putra Eka Persada      (2057051016)
