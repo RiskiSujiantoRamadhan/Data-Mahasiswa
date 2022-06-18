@@ -1,4 +1,4 @@
-# UAP Web - Studi Kasus Data Siswa
+# UAP Pemrograman Web - Studi Kasus Data Siswa
 Anggota Kelompok:
 * Riski Sujianto Ramadhan     (2017051084)
 * Putu Putra Eka Persada      (2057051016)
