@@ -61,25 +61,12 @@ if (isset($_POST['login'])) {
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.php">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="login.php">Login</a>
-                    </li>
-                </ul>
-            </div>
         </div>
     </nav>
     <!-- Close Navbar -->
 
     <div class="container">
-        <div class="row my-5">
+        <div class="row my-5 pt-5">
             <div class="col-md-6 text-center login" style="background-image: url('img/bg/memphis-colorful.png');">
                 <h4 class="fw-bold">Login | Admin</h4>
                 <!-- Ini Error jika tidak bisa login -->
