@@ -50,12 +50,6 @@ $siswa = query("SELECT * FROM siswa ORDER BY npm DESC");
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="logout.php">Logout</a>
                     </li>
                 </ul>
@@ -167,7 +161,7 @@ $siswa = query("SELECT * FROM siswa ORDER BY npm DESC");
     </div>
     <footer class="bg-dark text-white text-center" style="padding: 5px;">
         <p>Created with <i class="bi bi-suit-heart-fill" style="color: red;"></i> by <u style="color: #fff;">Putu
-                Putra</u></p>
+                Putra</u>&nbsp; - &nbsp;<u style="color: #fff;">Riski Sujianto</u>&nbsp; - &nbsp;<u style="color: #fff;">Karina Adityas</u></p>
     </footer>
     <!-- Close Footer -->
 
@@ -181,21 +175,20 @@ $siswa = query("SELECT * FROM siswa ORDER BY npm DESC");
     <script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.23/js/dataTables.bootstrap5.min.js"></script>
 
-    <script>
+     <script>
     $(document).ready(function() {
-        // Fungsi Table
-        $('#data').DataTable();
-        // Fungsi Table
-
         // Fungsi Detail
+		
         $('.detail').click(function() {
+			
             var dataSiswa = $(this).attr("data-id");
             $.ajax({
+		
                 url: "detail.php",
                 method: "post",
                 data: {
                     dataSiswa,
-                    dataSiswa
+				
                 },
                 success: function(data) {
                     $('#detail-siswa').html(data);
@@ -203,6 +196,7 @@ $siswa = query("SELECT * FROM siswa ORDER BY npm DESC");
                 }
             });
         });
+		$('#data').DataTable();
         // Fungsi Detail
     });
     </script>
