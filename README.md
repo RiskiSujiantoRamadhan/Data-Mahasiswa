@@ -6,7 +6,7 @@ Anggota Kelompok:
 
 Studi Kasus : Data Mahasiswa
 
-Link Hosting : uapweb7171.000webhostapp.com
+Link Hosting : http://uapweb7171.000webhostapp.com
 
 Deskripsi Program : Aplikasi Web dengan fungsi utama CRUD untuk memasukkan data mahasiswa, pada bagian login akan diminta memasukkan username dan password sebagai akses sebelum program dijalankan, seperti berikut :
 * username = admin
