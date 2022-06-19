@@ -67,12 +67,6 @@ if (isset($_POST['ubah'])) {
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.php">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="logout.php">Logout</a>
                     </li>
                 </ul>
@@ -199,19 +193,11 @@ if (isset($_POST['ubah'])) {
                     quaerat? Nam, error fugit sed, maiores illum architecto, officiis voluptate nesciunt voluptatibus
                     aut reprehenderit perspiciatis doloremque!</p>
             </div>
-            <div class="col-md-6 my-2 text-center link">
-                <h4 class="fw-bold text-uppercase">Account Links</h4>
-                <a href="https://web.facebook.com/putuputraekapersada/" target="_blank"><i
-                        class="bi bi-facebook fs-3"></i></a>
-                <a href="https://www.instagram.com/putupersada/" target="_blank"><i
-                        class="bi bi-instagram fs-3"></i></a>
-
-            </div>
         </div>
     </div>
     <footer class="bg-dark text-white text-center" style="padding: 5px;">
-        <p>Created with <i class="bi bi-suit-heart-fill" style="color: red;"></i> by <a
-                href="https://instagram.com/vikrysurya_" target="_blank" style="color: #fff;">Putu Putra</a></p>
+        <p>Created with <i class="bi bi-suit-heart-fill" style="color: red;"></i> by <u style="color: #fff;">Putu
+                Putra</u>&nbsp; - &nbsp;<u style="color: #fff;">Riski Sujianto</u>&nbsp; - &nbsp;<u style="color: #fff;">Karina Adityas</u></p>
     </footer>
     <!-- Close Footer -->
 
